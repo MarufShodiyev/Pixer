@@ -13,135 +13,157 @@
 
 <body>
     <header>
-        <div class="container header__wrapper">
-            <h1>Pixer</h1>
-            <nav class="nav__wrapper">
-                <ul class="list">
+        <div class="container">
+            <div class="header__wrapper">
+                <h1>Pixer</h1>
+                <nav class="nav__wrapper">
+                    <ul class="list">
 
-                </ul>
-            </nav>
+                    </ul>
+                </nav>
+                <div class="mobile-btns">
+                    <button class="btn__bars" id="open" onclick="toggleMenu('open')"><i class="fa-solid fa-bars"></i></button>
+                    <button class="btn__bars" id="close" onclick="toggleMenu('close')"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <div class="container">
+                <div class="mobile-menu-wrapper">
+                    <ul class="list">
+
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
     <section class="main__section">
-        <div class="container section__wrapper">
-            <div class="main-section__info">
-                <h2>Biznesingizni keyingi bosqichga
-                    olib chiqing
-                </h2>
-                <p>
-                    Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
-                    sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
-                </p>
-                <button type="submit">Xizmatlar bilan tanishish</button>
+        <div class="container ">
+            <div class="section__wrapper">
+                <div class="main-section__info">
+                    <h2>Biznesingizni keyingi bosqichga
+                        olib chiqing
+                    </h2>
+                    <p>
+                        Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
+                        sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
+                    </p>
+                    <button type="submit">Xizmatlar bilan tanishish</button>
+                </div>
+                <iframe width="458" height="258"
+                    src="https://www.youtube.com/embed/Zd-twnYz2tE?si=4vcq_CEZ2XQ20uFf&amp;start=48"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
             </div>
-            <iframe width="458" height="258"
-                src="https://www.youtube.com/embed/Zd-twnYz2tE?si=4vcq_CEZ2XQ20uFf&amp;start=48"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
         </div>
     </section>
     <section class="service__section">
-        <div class="container service__wrapper">
-            <div class="service__title">
-                <h2>Xizmatlar</h2>
-                <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
-                    sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
-                </p>
-            </div>
-            <ul class="services">
-                <li class="service">
-                    <img src="./img/website-illustration.svg" alt="website img">
-                    <h4>Vebsayt tuzish</h4>
-                    <p>lorem ipsum</p>
-                </li>
-                <li class="service">
-                    <img src="./img/bot-illustration.svg" alt="bot-illustration img">
-                    <h4>Telegram bot</h4>
-                    <p>lorem ipsum</p>
-                </li>
-                <li class="service">
-                    <img src="./img/smm-illustration.svg" alt="smm-illustration img">
-                    <h4>SMM</h4>
-                    <p>lorem ipsum</p>
-                </li>
-                <li class="service">
-                    <img src="./img/design-illustration.svg" alt="design-illustration img">
-                    <h4>Grafik dizayn</h4>
-                    <p>lorem ipsum</p>
-                </li>
-                <li class="service">
-                    <img src="./img/crm-illustration.svg" alt="crm-illustration img">
-                    <h4>CRM tizimlar</h4>
-                    <p>lorem ipsum</p>
-                </li>
-            </ul>
-            <div class="button__link">
-                <button type="submit" class="btn">
-                    Buyurtma berish
-                </button>
-                <a href="#">Xizmatlar sahifasiga o’tish</a>
+        <div class="container">
+            <div class="service__wrapper">
+                <div class="service__title">
+                    <h2>Xizmatlar</h2>
+                    <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
+                        sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
+                    </p>
+                </div>
+                <ul class="services">
+                    <li class="service">
+                        <img src="./img/website-illustration.svg" alt="website img">
+                        <h4>Vebsayt tuzish</h4>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li class="service">
+                        <img src="./img/bot-illustration.svg" alt="bot-illustration img">
+                        <h4>Telegram bot</h4>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li class="service">
+                        <img src="./img/smm-illustration.svg" alt="smm-illustration img">
+                        <h4>SMM</h4>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li class="service">
+                        <img src="./img/design-illustration.svg" alt="design-illustration img">
+                        <h4>Grafik dizayn</h4>
+                        <p>lorem ipsum</p>
+                    </li>
+                    <li class="service">
+                        <img src="./img/crm-illustration.svg" alt="crm-illustration img">
+                        <h4>CRM tizimlar</h4>
+                        <p>lorem ipsum</p>
+                    </li>
+                </ul>
+                <div class="button__link">
+                    <button type="submit" class="btn">
+                        Buyurtma berish
+                    </button>
+                    <a href="#">Xizmatlar sahifasiga o’tish</a>
+                </div>
             </div>
 
         </div>
     </section>
     <section class="working__section">
-        <div class="container working__wrapper">
-            <div class="working__title">
-                <h2>Biz qanday ishlaymiz?</h2>
-                <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
-                    sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
-                </p>
-            </div>
-            <ul>
-                <li>
-                    <img src="./img/talablar__work.svg" alt="talablar__work img">
-                    <div class="work__title">
-                        <h4>Talablarni aniqlab chiqamiz</h4>
-                        <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="work__title">
-                        <h4>Bir necha yechimlarni taklif qilamiz</h4>
-                        <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
-                    </div>
-                    <img src="./img/taklif__work.svg" alt="taklif__work img">
-                </li>
-                <li>
-                    <img src="./img/time__work.svg" alt="time__work img">
-                    <div class="work__title">
-                        <h4>Loyiha uchun vaqt belgilaymiz</h4>
-                        <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="work__title">
-                        <h4>A’lo sifat bilan bajarib topshiramiz</h4>
-                        <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
-                    </div>
-                    <img src="./img/alo__daraja.svg" alt="alo__daraja img">
-                </li>
-                <li>
-                    <img src="./img/user__work.svg" alt="user__work img">
-                    <div class="work__title">
-                        <h4>Qo’llab-quvvatlab boramiz</h4>
-                        <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
-                    </div>
-                </li>
-            </ul>
-            <div class="order__btn">
-                <button type="submit">
-                    Buyurtma berish
-                </button>
+        <div class="container">
+            <div class="working__wrapper">
+                <div class="working__title">
+                    <h2>Biz qanday ishlaymiz?</h2>
+                    <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
+                        sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
+                    </p>
+                </div>
+                <ul>
+                    <li class="reverse">
+                        <img src="./img/talablar__work.svg" alt="talablar__work img">
+                        <div class="work__title">
+                            <h4>Talablarni aniqlab chiqamiz</h4>
+                            <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="work__title">
+                            <h4>Bir necha yechimlarni taklif qilamiz</h4>
+                            <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+                        </div>
+                        <img src="./img/taklif__work.svg" alt="taklif__work img">
+                    </li>
+                    <li class="reverse">
+                        <img src="./img/time__work.svg" alt="time__work img">
+                        <div class="work__title">
+                            <h4>Loyiha uchun vaqt belgilaymiz</h4>
+                            <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="work__title">
+                            <h4>A’lo sifat bilan bajarib topshiramiz</h4>
+                            <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+                        </div>
+                        <img src="./img/alo__daraja.svg" alt="alo__daraja img">
+                    </li>
+                    <li class="reverse">
+                        <img src="./img/user__work.svg" alt="user__work img">
+                        <div class="work__title">
+                            <h4>Qo’llab-quvvatlab boramiz</h4>
+                            <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="order__btn">
+                    <button type="submit">
+                        Buyurtma berish
+                    </button>
+                </div>
             </div>
 
         </div>
     </section>
     <section class="order__section">
-        <div class="container order__wrapper">
-            <h2>Buyurtma berish</h2>
+        <div class="container">
+            <div class="order__wrapper">
+                <h2>Buyurtma berish</h2>
             <p>
                 Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
                 sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
@@ -160,40 +182,49 @@
                     </button>
                 </div>
             </form>
+            </div>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="container footer__wrapper">
-            <div class="footer-work__info">
-                <h2>Copyright 2020</h2>
-                <p>
-                    Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
-                    sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.
-                </p>
-            </div>
-
-            <div class="footer__nav">
-                <h2>Sayt sahifalari</h2>
-                <ul class="list">
-
-                </ul>
-            </div>
-            <div class="footer__networks">
-                <h2>
-                    Biz internetda
-                </h2>
-                <div class="network">
-                    <a href="#"><i class="fa-brands fa-telegram"></i><p>Telegram</p></a>
-                    
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer-work__info">
+                    <h2>Copyright 2020</h2>
+                    <p>
+                        Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
+                        sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.
+                    </p>
                 </div>
-                <div class="network">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i><p>Facebook</p></a>
-                    
+    
+                <div class="footer__nav">
+                    <h2>Sayt sahifalari</h2>
+                    <ul class="list">
+    
+                    </ul>
                 </div>
-                <div class="network">
-                    <a href="#"><i class="fa-brands fa-square-instagram"></i><p>Instagram</p></a>
-                    
+                <div class="footer__networks">
+                    <h2>
+                        Biz internetda
+                    </h2>
+                    <div class="network">
+                        <a href="#"><i class="fa-brands fa-telegram"></i>
+                            <p>Telegram</p>
+                        </a>
+    
+                    </div>
+                    <div class="network">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i>
+                            <p>Facebook</p>
+                        </a>
+    
+                    </div>
+                    <div class="network">
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i>
+                            <p>Instagram</p>
+                        </a>
+    
+                    </div>
                 </div>
             </div>
         </div>

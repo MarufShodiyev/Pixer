@@ -57,3 +57,22 @@ function createList(){
 ulEl[0].appendChild(createList())
 ulEl[1].appendChild(createList())
 
+
+
+function toggleMenu(arg){
+   const menu = document.querySelector(".mobile-menu-wrapper");
+   const open = document.getElementById("open");
+   const close = document.getElementById("close");
+   if(arg == "open"){
+      menu.classList.add("open")
+      open.style.display = "none";
+      close.style.display = "block";
+
+   }else if( arg == "close"){
+      menu.classList.remove("open")
+      close.style.display = "none";
+      open.style.display = "block";
+   }
+}
+const close = document.getElementById("close");
+close.style.display = "none";
