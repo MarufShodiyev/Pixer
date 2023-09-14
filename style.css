@@ -795,6 +795,7 @@ footer {
 @media only screen and (max-width:575px) {
     .working__wrapper ul li{
         flex-direction: column;
+        text-align: center;
     }
     .working__wrapper ul li.reverse{
         flex-direction: column-reverse;
