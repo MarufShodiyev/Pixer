@@ -54,9 +54,9 @@ function createList(){
          
 }
   
-ulEl[0].appendChild(createList())
-ulEl[1].appendChild(createList())
-
+for(let i = 0;i < ulEl.length;i++){
+   ulEl[i].appendChild(createList());
+}
 
 
 function toggleMenu(arg){
